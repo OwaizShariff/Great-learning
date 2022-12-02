@@ -1,0 +1,169 @@
+.skills{
+    background-color: rgba(6, 46, 243, 0.612);
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.css-logos{
+    height: 80px;
+    width: 58px;
+    margin-top: 3px;
+}
+.react-logos{
+    height: 200px;
+    width: 250px;
+}
+.logos{
+    height: 82px;
+    width: 80px
+}
+.react-logo{
+    width: 109px;
+    height: 69px;
+}
+.hcj-logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+.rg-logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.git-logo{
+    width: 66px;
+    height: 60px;
+}
+.skills-container{
+    margin-top: 10px;
+}
+.banner{
+    width: 97%;
+    padding: 0px 20px;
+    margin: auto;
+}
+.banner1{
+    width: 97%;
+    padding: 0px 20px;
+    margin: auto;
+}
+.banner-content{
+    width: 100%;
+    text-align: left;
+    padding-left: 16px;
+}
+.banner-content1{
+    width: 100%;
+    text-align: left;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+.banner-content ul{
+    line-height: 32.2px;
+}
+.mob-banner{
+    width: 100%;
+}
+.desktop-banner{
+    display: none;
+}
+.banner-1{
+    width: 100%;
+    margin-top: 10px;
+}
+.banner:hover{
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%)
+}
+.banner1:hover{
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%)
+}
+@media screen and (min-width:1000px) {
+    .skills{
+        width: 100%;
+        margin:10px 0;
+        border-radius: 0px; 
+    }
+    .skills-container {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .hcj-logos{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    }
+    .rg-logos{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 13px;
+        width: 38%;
+    }
+    .mob-banner{
+        display: none;
+    }
+    .desktop-banner{
+        display: inline-block;
+        width: 100%;
+    }
+    .banner{
+        display: flex;
+        padding: 0px;
+    }
+    .banner1{
+        width: 97%;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 15px;
+    }
+    .banner-1{
+        width: 90%;
+    }
+    .banner-one{
+        width: 60%;
+    }
+    .logos {
+        height: 117px;
+        width: 136px;
+    }
+    .css-logos{
+        height: 107px;
+        width: 91px;
+        margin-top: 4px;
+    }
+    .react-logo{
+        width: 150px;
+        height: 100px;
+    }
+    .git-logo{
+        width: 100px;
+        height: 92px;
+    }
+}
+@media screen and (min-width:1400px) {
+    .banner-content{
+        margin-top: 46px;
+    }
+    .banner-content1{
+        width: 100%;
+        text-align: left;
+        padding-left: 16px;
+        margin-top: 68px;
+        line-height: 48px;
+    }
+    .banner-content ul {
+        line-height: 51.2px;
+    }
+}
