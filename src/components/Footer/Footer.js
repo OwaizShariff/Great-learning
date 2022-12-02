@@ -8,8 +8,8 @@ function Footer() {
     <div>
         <div className='footer-container'>
         <div>
-            <img className='social-logo' src={FacebookLogo} alt='' />
-            <img className='social-logo' src={InstaLogo} alt='' />
+            <img className='social-logo' src={FacebookLogo} alt='FacebookLogo' />
+            <img className='social-logo' src={InstaLogo} alt='InstaLogo' />
         </div>
         <div>
             <p>EmailUs</p>

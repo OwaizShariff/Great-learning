@@ -17,13 +17,13 @@ function Content() {
             <h1>Skills We Teach</h1>
             <div className='skills-container'>
             <div className='hcj-logos'>
-            <img className='logos' src={HtmlLogo} />
-            <img className='css-logos' src={CssLogo} />
-            <img className='logos' src={JsLogo} />
+            <img className='logos' src={HtmlLogo} alt='HtmlLogo' />
+            <img className='css-logos' src={CssLogo} alt='CssLogo' />
+            <img className='logos' src={JsLogo} alt="JsLogo"/>
             </div>
             <div className='rg-logos'>
-            <img className='react-logo' src={ReactLogo} />
-            <img className='git-logo' src={GitLogo} />
+            <img className='react-logo' src={ReactLogo} alt="ReactLogo"/>
+            <img className='git-logo' src={GitLogo} alt="GitLogo" />
             </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ function Content() {
 
     <div className='banner1'>
       <div className='banner-one'>
-        <img className='banner-1' src={WebDev} alt='' />
+        <img className='banner-1' src={WebDev} alt='banner1' />
       </div>
       <div className='banner-content1'>
       <h1>How du we help you in cracking the Interviews?</h1>

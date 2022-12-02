@@ -6,7 +6,7 @@ function Header() {
     <div>
         <div className='header-div'>
           <div className='header-logo-btn'>
-            <img className='logo' src='https://t3.ftcdn.net/jpg/03/92/80/46/360_F_392804645_tUQxo5EgPXvFGxn5OQguX1BiYlI6lCOV.jpg' />
+            <img className='logo' src='https://t3.ftcdn.net/jpg/03/92/80/46/360_F_392804645_tUQxo5EgPXvFGxn5OQguX1BiYlI6lCOV.jpg' alt='logo' />
             <button className='reg-btn'>Sign Up/Register</button>
             </div>
             <div className='objective'>
