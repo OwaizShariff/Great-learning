@@ -52,7 +52,7 @@ function Content() {
         <img className='banner-1' src={WebDev} alt='banner1' />
       </div>
       <div className='banner-content1'>
-      <h1>How du we help you in cracking the Interviews?</h1>
+      <h1>How do we help you in cracking the Interviews?</h1>
       <br></br>
       <ul>
         <li>We will provide the list of basic questions which will help you in cracking the first round of interview which will be the  Written/Aptitude test</li>
