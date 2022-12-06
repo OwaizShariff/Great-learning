@@ -12,6 +12,7 @@
     background-size: cover;
     /* background-attachment: fixed; */
     padding-bottom: 15px;
+    background-attachment: fixed;
 }
 .header-logo-btn{
     display: flex;
@@ -20,12 +21,13 @@
     padding: 20px;
 }
 .logo{
-    width: 20%;
+    width: 100px;
     height: auto;
 }
 .reg-btn{
     border-radius: 12px;
     padding: 5px 10px;
+    border: 1px solid black;
     background-color: black;
     color: white;
     height: 40px;
@@ -39,6 +41,42 @@
     color: white;
     margin-bottom: 20px;
 } 
+.modal-container{
+    width: 50%;
+}
+.ant-modal-header {
+    text-align: center;
+}
+.input-fields{
+    width: 100%;
+    height: 7vh;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 4px;
+}
+input.input-fields {
+    font-size: 22px;
+    font-family: poppins;
+    padding: 10px;
+}
+.ant-modal-footer{
+    display: none;
+}
+.submit-button{
+    width: 40%;
+    height: 6vh;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 15px 10px 0px 10px;
+    background-color: #1d1dff;
+}
+.clear-button{
+    width: 40%;
+    height: 6vh;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 15px 10px 0px 10px;
+    background-color: #1d1dff;
+}
 
 @media screen and (min-width:1000px) {
     .header-div{
