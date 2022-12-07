@@ -1,8 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { useState } from 'react';
-import { Button, Modal } from 'antd';
-import InputField from '../CommonComponents/InputFields/InputField';
+import { Modal } from 'antd';
 
 function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);

@@ -5,12 +5,9 @@
 }
 
 .header-div{
-    /* background-repeat: no-repeat; */
     background-image: url(https://wallpapercrafter.com/desktop/249372-person-with-watch-using-apple-laptop-near-phone-le.jpg);
     width: 100%;
-    /* height: 100vh; */
     background-size: cover;
-    /* background-attachment: fixed; */
     padding-bottom: 15px;
     background-attachment: fixed;
 }
