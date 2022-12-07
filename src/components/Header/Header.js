@@ -38,45 +38,44 @@ function Header() {
         <Modal title="Enter Details to Register" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
           <form>
         <div className='name-container'>
-          <label>Name</label>
-          <br />
+          <p className='form-label'>Name :</p>
           <input className='input-fields' />
         </div>
-        <div>
-          <label>Email</label>
+        <div className='name-container'>
+          <p className='form-label'>Email :</p>
           <input className='input-fields' />
         </div>
-        <div>
-          <label>Mobile No.</label>
+        <div className='name-container'>
+          <p className='form-label'>Mobile No :</p>
           <input className='input-fields' />
         </div>
-        <div>
-          <label>Alternate No.</label>
+        <div className='name-container'>
+          <p className='form-label'>Alternate No :</p>
           <input className='input-fields' />
         </div>
-        <div>
-          <label>State</label>
+        <div className='name-container'>
+          <p className='form-label'>State :</p>
           <input className='input-fields' />
         </div>
-        <div>
-          <label>City</label>
+        <div  className='name-container'>
+          <p className='form-label'>City :</p>
           <input className='input-fields' />
         </div>
-        <div>
-          <label>Country</label>
+        <div className='name-container'>
+          <p className='form-label'>Country :</p>
           <input className='input-fields' />
         </div>
-        <div>
-          <label>College Passed Year</label>
+        <div  className='name-container'>
+          <p className='form-label'>College Passed Year :</p>
           <input className='input-fields' />
         </div>
-        <div>
-          <label>Years of Experience</label>
+        <div className='name-container'>
+          <p className='form-label'>Years of Experience :</p>
           <input className='input-fields' />
         </div>
-        <div>
+        <div className='buttons-container'>
           <button className='submit-button' type='submit'>Sumbit</button>
-          <button className='clear-button' type='reset'>Clear</button>
+          <button className='submit-button' type='reset'>Clear</button>
         </div>
         </form>
       </Modal>
