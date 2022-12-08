@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import { useState } from 'react';
 import { Modal } from 'antd';
-
+import BannerLogo from '../Images/tech-era-logo.png'
 function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const showModal = () => {
@@ -18,11 +18,11 @@ function Header() {
     <div>
         <div className='header-div'>
           <div className='header-logo-btn'>
-            <img className='logo' src='https://t3.ftcdn.net/jpg/03/92/80/46/360_F_392804645_tUQxo5EgPXvFGxn5OQguX1BiYlI6lCOV.jpg' alt='logo' />
+            <img className='logo' src={BannerLogo} alt='logo' />
               <button className='reg-btn' onClick={showModal}>Sign Up/Register</button>
           </div>
             <div className='objective'>
-              <h1>Welcome to Great Learning!</h1>
+              <h1>Welcome to Tech Era!</h1>
               <br></br>
               <p>We help students to land on their dream job by developing there skills and knowledge based on IT Market
               </p>
