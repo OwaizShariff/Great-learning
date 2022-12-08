@@ -14,8 +14,8 @@ function Footer() {
             <img className='social-logo' src={WhatsappLogo} alt='InstaLogo' />
         </div>
         <div>
-            <p>EmailUs</p>
-            <p>ContentUs</p>
+            <p>Email Us</p>
+            <p>Contact Us</p>
         </div>
         </div>
     </div>
