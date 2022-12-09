@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 
 .header-div{
     background-image: url(https://wallpapercrafter.com/desktop/249372-person-with-watch-using-apple-laptop-near-phone-le.jpg);

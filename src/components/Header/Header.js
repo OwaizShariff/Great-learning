@@ -19,7 +19,7 @@ function Header() {
         <div className='header-div'>
           <div className='header-logo-btn'>
             <img className='logo' src={BannerLogo} alt='logo' />
-              <button className='reg-btn' onClick={showModal}>Sign Up/Register</button>
+              <button className='reg-btn'><a href='https://forms.gle/8iLax177LJWdQvDBA' target="_blank">Sign Up/Register</a></button>
           </div>
             <div className='objective'>
               <h1>Welcome to Edu Tech!</h1>
@@ -35,48 +35,7 @@ function Header() {
         </div>
         <div className='modal-container'>
         <Modal title="Enter Details to Register" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
-          <form>
-        <div className='name-container'>
-          <p className='form-label'>Name :</p>
-          <input className='input-fields' />
-        </div>
-        <div className='name-container'>
-          <p className='form-label'>Email :</p>
-          <input className='input-fields' />
-        </div>
-        <div className='name-container'>
-          <p className='form-label'>Mobile No :</p>
-          <input className='input-fields' />
-        </div>
-        <div className='name-container'>
-          <p className='form-label'>Alternate No :</p>
-          <input className='input-fields' />
-        </div>
-        <div className='name-container'>
-          <p className='form-label'>State :</p>
-          <input className='input-fields' />
-        </div>
-        <div  className='name-container'>
-          <p className='form-label'>City :</p>
-          <input className='input-fields' />
-        </div>
-        <div className='name-container'>
-          <p className='form-label'>Country :</p>
-          <input className='input-fields' />
-        </div>
-        <div  className='name-container'>
-          <p className='form-label'>College Passed Year :</p>
-          <input className='input-fields' />
-        </div>
-        <div className='name-container'>
-          <p className='form-label'>Years of Experience :</p>
-          <input className='input-fields' />
-        </div>
-        <div className='buttons-container'>
-          <button className='submit-button' type='submit'>Sumbit</button>
-          <button className='submit-button' type='reset'>Clear</button>
-        </div>
-        </form>
+         
       </Modal>
       </div>
     </div>
