@@ -22,7 +22,7 @@ function Header() {
               <button className='reg-btn' onClick={showModal}>Sign Up/Register</button>
           </div>
             <div className='objective'>
-              <h1>Welcome to Tech Era!</h1>
+              <h1>Welcome to Edu Tech!</h1>
               <br></br>
               <p>We help students to land on their dream job by developing there skills and knowledge based on IT Market
               </p>
