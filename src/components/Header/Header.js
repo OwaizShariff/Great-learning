@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import BannerLogo from '../Images/tech-era-logo.png'
+import BannerLogo from '../Images/edu-tech-logo.png'
 function Header() {
   return (
     <div>
