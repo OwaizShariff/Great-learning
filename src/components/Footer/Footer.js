@@ -13,9 +13,9 @@ function Footer() {
             <img className='social-logo' src={InstaLogo} alt='InstaLogo' />
             <img className='social-logo' src={WhatsappLogo} alt='InstaLogo' />
         </div>
-        <div>
-            <p>Email Us</p>
-            <p>Contact Us</p>
+        <div  className='contact'>
+           <a href='mailto:www.arwaaedu@gmail.com'>Email Us</a>
+          <p>Contact Us</p>
         </div>
         </div>
     </div>
