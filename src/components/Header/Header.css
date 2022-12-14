@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 a{
-    color: white;
     text-decoration: none;
 }
 
@@ -12,6 +11,7 @@ a{
     background-image: url(https://wallpapercrafter.com/desktop/249372-person-with-watch-using-apple-laptop-near-phone-le.jpg);
     width: 100%;
     background-size: cover;
+    padding-top: 20px;
     padding-bottom: 15px;
     background-attachment: fixed;
 }
@@ -24,14 +24,6 @@ a{
 .logo{
     width: 100px;
     height: 43px;
-}
-.reg-btn{
-    border-radius: 12px;
-    padding: 5px 10px;
-    border: 1px solid black;
-    background-color: black;
-    color: white;
-    height: 40px;
 }
 .objective{
     width: 80%;

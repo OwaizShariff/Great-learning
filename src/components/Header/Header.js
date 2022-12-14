@@ -1,14 +1,11 @@
 import React from 'react';
+import MainHeader from '../MainHeader/MainHeader';
 import './Header.css';
-import BannerLogo from '../Images/edu-tech-logo.png'
 function Header() {
   return (
     <div>
+      <MainHeader />
         <div className='header-div'>
-          <div className='header-logo-btn'>
-            <img className='logo' src={BannerLogo} alt='logo' />
-              <button className='reg-btn'><a href='https://forms.gle/8iLax177LJWdQvDBA' rel="noopener noreferrer" target="_blank">Sign Up/Register</a></button>
-          </div>
             <div className='objective'>
               <h1>Welcome to Edu Tech!</h1>
               <br></br>

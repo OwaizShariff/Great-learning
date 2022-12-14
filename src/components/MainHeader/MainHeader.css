@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    position: sticky;
+    top: 0;
+    z-index: 20px;
+    background-color: white;
+}
+.home{
+    color: black;
+}
+.header-click{
+    color: black;
+    display: none;
+}
+.hamburger{
+    color: white;
+}
+.ant-drawer-content-wrapper{
+    width: 260px !important;
+}
+.hamburger-reg-btn{
+    color: black;
+}
+.reg-btn{
+    display: none;
+}
+@media screen and (min-width:600px) {
+    .hamburger{
+        display: none;
+    }
+    .header-click{
+        display: flex;
+        font-size: 21px;
+        width: 40%;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .home:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .reg-btn{
+        display: block;
+    }
+}
