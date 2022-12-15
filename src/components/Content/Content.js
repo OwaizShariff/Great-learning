@@ -8,6 +8,7 @@ import GitLogo from '../Images/Git-logo.png'
 import BannerOne from '../Images/banner-one.png'
 import WebDev from '../Images/WebDev.jpg'
 import Banner from '../Images/banner.png'
+import Team from '../Team/Team';
 
 function Content() {
   return (
@@ -60,6 +61,9 @@ function Content() {
         <li>We will prepare you for the 3rd round which will be HR round where you’ll be asked about yourself, and we will be guiding you what to tell to the interviewer.</li>
       </ul>
       </div>
+    </div>
+    <div>
+      <Team/>
     </div>
 </div>
   )

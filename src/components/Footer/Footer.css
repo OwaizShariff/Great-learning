@@ -8,6 +8,10 @@
     height: 20px;
     margin: 10px;
 }
+.contact a{
+    cursor: pointer;
+    color: white;
+}
 .footer-container{
     width: 100%;
     margin-top: 20px;
