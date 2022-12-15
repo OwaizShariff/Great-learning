@@ -17,7 +17,8 @@
     display: none;
 }
 .hamburger{
-    color: white;
+    color: black;
+    
 }
 .ant-drawer-content-wrapper{
     width: 260px !important;
@@ -28,17 +29,24 @@
 .reg-btn{
     display: none;
 }
+.hamburger-list{
+    font-size: 21px;
+    margin-top: 13px;
+    border-bottom: 1px dotted black;
+}
 @media screen and (min-width:600px) {
     .hamburger{
         display: none;
     }
     .header-click{
         display: flex;
+        margin-left: 33px;
+        background-color: #f9fafb;
         font-size: 21px;
-        width: 40%;
+        width: 50%;
         justify-content: space-around;
         align-items: center;
-        
+        border-radius: 10px;        
     }
     .home:hover{
         cursor: pointer;

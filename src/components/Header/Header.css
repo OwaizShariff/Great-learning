@@ -5,6 +5,7 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
 
 .header-div{
@@ -81,6 +82,10 @@ input.input-fields {
         width: 150px;
         height: 60px;
     }
+    .header-logo-btn {
+        display: flex;
+        justify-content: center;
+    }    
 }
 
 @media screen and (min-width:1000px) {

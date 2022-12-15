@@ -10,7 +10,6 @@ function Content() {
   return (
     <div className=''>
       <Skills />
-    
     <div className='banner'>
       <div>
           <img className='mob-banner' src={BannerOne} alt='bannerOne' />

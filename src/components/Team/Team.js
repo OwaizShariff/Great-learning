@@ -8,7 +8,7 @@ import ShaziyaPic from '../Images/shaziya.jpg'
 const Team = () => {
     return (
         <div>
-            <div className='team-container'>
+            <div id='team' className='team-container'>
                 <h1>Our Team</h1>
                 <div className='team-main'>
                     <div className='team-cards'>
