@@ -1,51 +1,10 @@
-.skills{
-    background-color: rgba(6, 46, 243, 0.612);
-    color: white;
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10px;
-}
-.css-logos{
-    height: 80px;
-    width: 58px;
-    margin-top: 3px;
-}
-.react-logos{
+.marquee-container {
     height: 200px;
-    width: 250px;
+    overflow-x: hidden !important;
 }
-.logos{
-    height: 82px;
-    width: 80px
-}
-.react-logo{
-    width: 109px;
-    height: 69px;
-}
-.hcj-logos{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    align-items: stretch;
-    flex-wrap: nowrap;
-}
-.rg-logos{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-}
-.git-logo{
-    width: 66px;
-    height: 60px;
-}
-.skills-container{
-    margin-top: 10px;
+.overlay::before, .overlay::after {
+    background: none !important;
+   
 }
 .banner{
     width: 97%;
@@ -94,31 +53,9 @@
     .banner-content1 {
         font-size: 18px;
     }
+   
 }
 @media screen and (min-width:1000px) {
-    .skills{
-        width: 100%;
-        margin:10px 0;
-        border-radius: 0px; 
-    }
-    .skills-container {
-        margin-top: 10px;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-    }
-    .hcj-logos{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    }
-    .rg-logos{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 13px;
-        width: 38%;
-    }
     .mob-banner{
         display: none;
     }
@@ -142,23 +79,7 @@
     .banner-one{
         width: 60%;
     }
-    .logos {
-        height: 117px;
-        width: 136px;
-    }
-    .css-logos{
-        height: 107px;
-        width: 91px;
-        margin-top: 4px;
-    }
-    .react-logo{
-        width: 150px;
-        height: 100px;
-    }
-    .git-logo{
-        width: 100px;
-        height: 92px;
-    }
+
 }
 @media screen and (min-width:1400px) {
     .banner-content{

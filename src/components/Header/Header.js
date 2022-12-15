@@ -1,10 +1,8 @@
 import React from 'react';
-import MainHeader from '../MainHeader/MainHeader';
 import './Header.css';
 function Header() {
   return (
     <div>
-      <MainHeader />
         <div className='header-div'>
             <div className='objective'>
               <h1>Welcome to Edu Tech!</h1>

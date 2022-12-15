@@ -1,34 +1,16 @@
 import React from 'react'
 import './Content.css'
-import HtmlLogo from '../Images/html-logo.jpg';
-import CssLogo from '../Images/css-logo.jpg';
-import JsLogo from '../Images/js-logo.jpg';
-import ReactLogo from '../Images/React-logo.png';
-import GitLogo from '../Images/Git-logo.png'
 import BannerOne from '../Images/banner-one.png'
 import WebDev from '../Images/WebDev.jpg'
 import Banner from '../Images/banner.png'
 import Team from '../Team/Team';
+import Skills from '../Skills/Skills';
 
 function Content() {
   return (
     <div className=''>
-    <div className='container'>
-        <div className='skills'>
-            <h1>Skills We Teach</h1>
-            <div className='skills-container'>
-            <div className='hcj-logos'>
-            <img className='logos' src={HtmlLogo} alt='HtmlLogo' />
-            <img className='css-logos' src={CssLogo} alt='CssLogo' />
-            <img className='logos' src={JsLogo} alt="JsLogo"/>
-            </div>
-            <div className='rg-logos'>
-            <img className='react-logo' src={ReactLogo} alt="ReactLogo"/>
-            <img className='git-logo' src={GitLogo} alt="GitLogo" />
-            </div>
-            </div>
-        </div>
-    </div>
+      <Skills />
+    
     <div className='banner'>
       <div>
           <img className='mob-banner' src={BannerOne} alt='bannerOne' />
