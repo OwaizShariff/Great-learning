@@ -1,7 +1,7 @@
 import React from 'react'
 import BannerLogo from '../Images/edu-tech-logo.png'
 import './MainHeader.css'
-import { Button, Drawer } from 'antd';
+import { Drawer } from 'antd';
 import { useState } from 'react';
 import {MenuOutlined} from '@ant-design/icons';
 import {Link} from 'react-scroll'

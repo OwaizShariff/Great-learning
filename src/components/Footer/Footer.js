@@ -12,7 +12,7 @@ function Footer() {
         <div>
             <img className='social-logo' src={FacebookLogo} alt='FacebookLogo' />
             <img className='social-logo' src={InstaLogo} alt='InstaLogo' />
-            <a  href="https://api.whatsapp.com/send?phone=+8618392962&text=Hello%21%21%21%20%20%20owaiz." target="_blank"><img className='social-logo' src={WhatsappLogo} alt='InstaLogo' /></a>
+            <a  href="https://api.whatsapp.com/send?phone=+8618392962&text=Hello%21%21%21%20%20%20owaiz." target="_blank" rel="noreferrer"><img className='social-logo' src={WhatsappLogo} alt='InstaLogo' /></a>
         </div>
         <div  className='contact'>
           <p className='back-to-top'><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></p>

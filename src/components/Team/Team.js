@@ -6,7 +6,7 @@ import ReshmaPic from '../Images/reshma.png'
 import AfshanPic from '../Images/afshan.png'
 import OwaizPic from '../Images/owaiz.png.jpg'
 import ShaziyaPic from '../Images/shaziya.jpg'
-import { Fade } from "react-awesome-reveal";
+
 const Team = () => {
     return (
         <div>
@@ -20,8 +20,8 @@ const Team = () => {
                         <p>Software Engineer</p>
                         <p>Full-Stack Developer</p>
                         <div className='social-links-container'>
-                            <a href='https://www.linkedin.com/in/owaiz-shariff/' target='_blank'><img className='linkedin-github-img' src={LinkedIn} alt='linkedin' /></a>
-                            <a href='https://github.com/OwaizShariff' target='_blank'><img className='linkedin-github-img' src={GitHub} alt='github' /></a>
+                            <a href='https://www.linkedin.com/in/owaiz-shariff/' target='_blank' rel="noreferrer"><img className='linkedin-github-img' src={LinkedIn} alt='linkedin' /></a>
+                            <a href='https://github.com/OwaizShariff' target='_blank' rel="noreferrer"><img className='linkedin-github-img' src={GitHub} alt='github' /></a>
                         </div>
                     </div>
                     <div className='team-cards'>
@@ -30,8 +30,8 @@ const Team = () => {
                         <p>Software Engineer</p>
                         <p>Front-End Developer</p>
                         <div className='social-links-container'>
-                            <a href='https://www.linkedin.com/in/afshan-khanum/'  target='_blank'><img className='linkedin-github-img' src={LinkedIn} alt='linkedin' /></a>
-                            <a href='https://github.com/afshakhanum' target='_blank'><img className='linkedin-github-img' src={GitHub} alt='github' /></a>
+                            <a href='https://www.linkedin.com/in/afshan-khanum/'  target='_blank' rel="noreferrer"><img className='linkedin-github-img' src={LinkedIn} alt='linkedin' /></a>
+                            <a href='https://github.com/afshakhanum' target='_blank' rel="noreferrer"><img className='linkedin-github-img' src={GitHub} alt='github' /></a>
                         </div>
                     </div>
                     <div className='team-cards'>
@@ -40,8 +40,8 @@ const Team = () => {
                         <p>Software Engineer</p>
                         <p>Front-End Developer</p>
                         <div className='social-links-container'>
-                            <a href='https://www.linkedin.com/in/reshma-noorain/' target='_blank'><img className='linkedin-github-img' src={LinkedIn} alt='linkedin' /></a>
-                            <a href='https://github.com/reshmanoorain' target='_blank'><img className='linkedin-github-img' src={GitHub} alt='github' /></a>
+                            <a href='https://www.linkedin.com/in/reshma-noorain/' target='_blank' rel="noreferrer"><img className='linkedin-github-img' src={LinkedIn} alt='linkedin' /></a>
+                            <a href='https://github.com/reshmanoorain' target='_blank' rel="noreferrer"><img className='linkedin-github-img' src={GitHub} alt='github' /></a>
                         </div>
                     </div>
                     <div className='team-cards'>
