@@ -82,10 +82,12 @@ input.input-fields {
     .logo{
         width: 150px;
         height: 60px;
+        margin-left: 21px;
     }
     .header-logo-btn {
         display: flex;
         justify-content: space-between;
+        padding: 8px;
     }    
 }
 

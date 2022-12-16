@@ -29,15 +29,15 @@ const MainHeader = () => {
                 {/* <p className='home'><Link className='home' activeClass="active" to="home" spy={true} smooth={true}>Home</Link></p> */}
                 <p className='home'><Link className='home'  to="skills" spy={true} smooth={true}>Skills</Link></p>
                 <p className='home'><Link className='home'  to="team" spy={true} smooth={true}>Team</Link></p>
-                <p className='home'><a className='home' href='https://forms.gle/8iLax177LJWdQvDBA' rel="noopener noreferrer" target="_blank">Sign Up/Register</a></p>
+                <p className='home'><a className='home' href='https://forms.gle/8iLax177LJWdQvDBA' rel="noopener noreferrer" target="_blank">Register</a></p>
             </ul>
           </div>
           <div className='drawer'>
           <Drawer placement="left" onClose={onClose} open={open}>
         {/* <p className='hamburger-list'><Link onClick={onListClick} activeClass="active" to="home" spy={true} smooth={true}>Home</Link></p> */}
-        <p className='hamburger-list'><Link onClick={onListClick} to="skills" spy={true} smooth={true}>SKILLS</Link></p>
-        <p className='hamburger-list'><Link onClick={onListClick} to="team" spy={true} smooth={true}>TEAM</Link></p>
-        <p className='hamburger-list'><a href='https://forms.gle/8iLax177LJWdQvDBA' rel="noopener noreferrer" target="_blank">RESGISTER</a></p>
+        <p className='hamburger-list'><Link onClick={onListClick} to="skills" spy={true} smooth={true}>Skils</Link></p>
+        <p className='hamburger-list'><Link onClick={onListClick} to="team" spy={true} smooth={true}>Team</Link></p>
+        <p className='hamburger-list'><a href='https://forms.gle/8iLax177LJWdQvDBA' rel="noopener noreferrer" target="_blank">Register</a></p>
       </Drawer>
       </div>
     </div>
