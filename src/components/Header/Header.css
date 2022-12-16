@@ -23,8 +23,9 @@ a{
     padding: 20px;
 }
 .logo{
-    width: 100px;
+    width: 200px;
     height: 43px;
+    object-fit: contain;
 }
 .objective{
     width: 80%;
@@ -84,7 +85,7 @@ input.input-fields {
     }
     .header-logo-btn {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }    
 }
 

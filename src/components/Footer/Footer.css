@@ -10,7 +10,10 @@
 }
 .contact a{
     cursor: pointer;
-    color: white;
+    color: rgb(84, 81, 239);
+}
+.back-to-top{
+    color: rgb(84, 81, 239);
 }
 .footer-container{
     width: 100%;

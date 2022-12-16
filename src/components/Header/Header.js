@@ -5,7 +5,7 @@ function Header() {
     <div>
         <div className='header-div'>
             <div className='objective'>
-              <h1>Welcome to Edu Tech!</h1>
+              <h1>Welcome to Arwaa-EduTech!</h1>
               <br></br>
               <p>We help students to land on their dream job by developing there skills and knowledge based on IT Market
               </p>

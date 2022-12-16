@@ -15,7 +15,7 @@ const Skills = () => {
     <div>
         <div className='container'>
         <div className='skills'>
-            <h1>Skills We Teach</h1>
+            <h1 className='skill-heading'>Skills We Teach</h1>
             <Marquee 
             speed={120} 
             pauseOnHover={true}>

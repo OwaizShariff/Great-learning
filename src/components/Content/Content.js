@@ -16,7 +16,7 @@ function Content() {
           <img className='desktop-banner' src={Banner} alt='bannerOne' />
           </div>
         <div className='banner-content'>
-        <h1>How does these skills help you in your career?</h1>
+        <h1 className='heading'>How does these skills help you in your career?</h1>
         <br></br>
         <ul>       
                 <li>These skills are booming in the market since 2010</li>
@@ -34,7 +34,7 @@ function Content() {
         <img className='banner-1' src={WebDev} alt='banner1' />
       </div>
       <div className='banner-content1'>
-      <h1>How do we help you in cracking the Interviews?</h1>
+      <h1 className='heading'>How do we help you in cracking the Interviews?</h1>
       <br></br>
       <ul>
         <li>We will provide the list of basic questions which will help you in cracking the first round of interview which will be the  Written/Aptitude test</li>

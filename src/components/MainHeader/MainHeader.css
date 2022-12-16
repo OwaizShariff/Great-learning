@@ -9,16 +9,23 @@
     z-index: 20px;
     background-color: white;
 }
+.anticon svg {
+    font-size: 22px;
+}
 .home{
-    color: black;
+    color: rgb(84, 81, 239);
 }
 .header-click{
-    color: black;
     display: none;
 }
 .hamburger{
+    font-size: 25px;
     color: black;
-    
+}
+:where(.css-dev-only-do-not-override-1ij74fp).ant-drawer .ant-drawer-header-title {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 .ant-drawer-content-wrapper{
     width: 260px !important;
