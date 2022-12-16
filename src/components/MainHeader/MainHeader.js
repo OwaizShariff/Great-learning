@@ -27,9 +27,9 @@ const MainHeader = () => {
             <img className='logo' src={BannerLogo} alt='logo' />
             <ul className='header-click'>
                 {/* <p className='home'><Link className='home' activeClass="active" to="home" spy={true} smooth={true}>Home</Link></p> */}
-                <p className='home'><Link className='home'  to="skills" spy={true} smooth={true}>Skills</Link></p>
-                <p className='home'><Link className='home'  to="team" spy={true} smooth={true}>Team</Link></p>
-                <p className='home'><a className='home' href='https://forms.gle/8iLax177LJWdQvDBA' rel="noopener noreferrer" target="_blank">Register</a></p>
+                <p ><Link className='home'  to="skills" spy={true} smooth={true}>Skills</Link></p>
+                <p ><Link className='home'  to="team" spy={true} smooth={true}>Team</Link></p>
+                <p ><a className='home' href='https://forms.gle/8iLax177LJWdQvDBA' rel="noopener noreferrer" target="_blank">Register</a></p>
             </ul>
           </div>
           <div className='drawer'>
